@@ -66,3 +66,11 @@ Terraform will print:
 public_ip = "X.X.X.X"
 strapi_url = "http://X.X.X.X:1337"
 Copy the URL and open it in the browser.
+
+
+🔥 Testing Strapi
+Open:
+http://<PUBLIC_IP>:1337/admin
+Create the first admin user → you will see the Strapi dashboard.
+API routes appear automatically under:
+http://<PUBLIC_IP>:1337/api
